@@ -110,6 +110,7 @@ echarts.extendChartView({
 
 
     dispose: function () {
+        this.viewGL.dispose();
         this.groupGL.removeAll();
     },
 
